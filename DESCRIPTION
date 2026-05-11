@@ -1,6 +1,6 @@
 Package: murlib.lgr
 Title: Tools for {lgr}
-Version: 0.0.0.9001
+Version: 0.0.0.9002
 Authors@R: 
     person("Murat", "Tasan",
            email = "mmuurr@gmail.com",

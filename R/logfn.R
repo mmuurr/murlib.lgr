@@ -126,7 +126,7 @@ logfn_logger <- function(logfn) {
 #' @details
 #' To override, add `string_repr(x, width, ...)` method to an R6's `public` method list.
 #' @exportS3Method lgr::string_repr
-string_repr.RisioR6 <- function(x, width = 32L, ...) {
+string_repr.R6 <- function(x, width = 32L, ...) {
 	x1 <- lgr:::string_repr.default(x, width, ...)
 	x2 <- rlang::obj_address(x)
 	sprintf("%s<%s>", x1, x2)
