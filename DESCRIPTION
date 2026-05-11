@@ -1,0 +1,28 @@
+Package: murlib.lgr
+Title: Tools for {lgr}
+Version: 0.0.0.9001
+Authors@R: 
+    person("Murat", "Tasan",
+           email = "mmuurr@gmail.com",
+	   role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8155-2565"))
+Description: Some helpers for using the (excellent, but sometimes too-flexible) {lgr} package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+Collate: 
+    'AAA.R'
+    'init.R'
+    'logfn.R'
+    'murlib.lgr-package.R'
+Suggests: 
+    testthat (>= 3.0.0)
+Imports: 
+    checkmate (>= 2.3.2),
+    lgr (>= 0.4.4),
+    murlib.core (>= 1.2.0),
+    R6 (>= 2.6.1),
+    rlang (>= 1.1.7),
+    stringr (>= 1.5.1)
